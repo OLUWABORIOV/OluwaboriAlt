@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    nd-color: var(--color-white);
     background-color: #800080;
     font-family: Arial, sans-serif;
   }
@@ -43,7 +42,7 @@ section{
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-top: 10px;
-    color: black;
+    color: whitesmoke;
   }
   
   /* Button Styling */
