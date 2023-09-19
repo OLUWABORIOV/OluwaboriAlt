@@ -1,60 +1,66 @@
 /* Default Styling */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    background-color: var(--color-white);
+  box-sizing: border-box;
+  list-style: none;
+}
 
-  }
-section{
-    padding: 70px 10%;
-}  
- 
-  /* Container Styling */
-  .container {
-    margin-top: 40px;
-    max-width: 400px;
-    padding: 10px;
-    margin: auto;
-    border: solid;
-  }
-  
-  /* Screen styling */
-  .screen {
-    text-align: right;
-    overflow: auto;
-    border:solid #01010c;
-    margin: 15px;
-    padding: 0 12px;
-    height: 90px;
-    line-height: 70px;
-    font-size: 25px;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    background-color: white;
-  }
-  
-  
-  /* Button Styling */
-  .buttongrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: black;
-    margin: 10px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    border: solid;
-  }
-  .button{
-    border: solid black;
-    background-color: #a0a29d;
-  }
+/* Container Styling */
+#container {
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+  padding: 10px;
+  margin: auto;
+  border: solid;
+  border-radius: 10px;
+  margin-top: 150px;
+}
 
- #special{
-    background-color: orange;
- }
-  
-  
+/* Screen styling */
+#screen {
+  text-align: right;
+  overflow: auto;
+  border: solid #01010c;
+  margin: 15px;
+  padding: 0 12px;
+  height: 90px;
+  line-height: 70px;
+  font-size: 25px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+/* Button Styling */
+.buttongrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: 10px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px;
+}
+.button {
+  border: solid white;
+  background-color: #a0a29d;
+}
+
+#special {
+  background-color: orange;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: green;
+  color: #fff;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: white;
+  color: #000;
+}
