@@ -4,8 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    background-color: var(--color-white);
-
+    nd-color: var(--color-white);
+    background-color: #800080;
+    font-family: Arial, sans-serif;
   }
 section{
     padding: 70px 10%;
@@ -18,6 +19,7 @@ section{
     padding: 10px;
     margin: auto;
     border: solid;
+    border-radius: 20px;
   }
   
   /* Screen styling */
@@ -25,6 +27,7 @@ section{
     text-align: right;
     overflow: auto;
     border:solid #01010c;
+    border-radius: 10px;
     margin: 15px;
     padding: 0 12px;
     height: 90px;
@@ -35,6 +38,13 @@ section{
     background-color: white;
   }
   
+  .cal {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 10px;
+    color: black;
+  }
   
   /* Button Styling */
   .buttongrid {
@@ -51,8 +61,10 @@ section{
   .button{
     border: solid black;
     background-color: #a0a29d;
+    
   }
-
+  
+  
  #special{
     background-color: orange;
  }
