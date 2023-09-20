@@ -14,7 +14,7 @@
   border: solid;
   border-radius: 10px;
   margin-top: 150px;
-  background-color: blue;
+  background-color: rgb(97, 63, 63);
 }
 
 /* Screen styling */
@@ -46,7 +46,8 @@
   padding: 10px;
 }
 .button {
-  border: solid white;
+  background-color: rgba(88, 88, 88, 0.692);
+  border: solid  rgba(88, 88, 88, 0.692);
   background-color: #a0a29d;
 }
 
